@@ -1,0 +1,241 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MAGIGURUMI | Nuestra comunidad</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- ENCABEZADO Y MENÚ DE NAVEGACIÓN -->
+    <header class="site-header">
+        <div class="nav-wrap">
+
+            <a class="brand" href="index.html">
+                <img src="ImagenesCrochet/logoo.jpg" alt="Logo MAGIGURUMI">
+                MAGIGURUMI
+            </a>
+
+            <button class="menu-toggle"
+                aria-label="Abrir menú"
+                onclick="document.querySelector('.nav-links').classList.toggle('open')">
+                ☰
+            </button>
+
+            <nav class="nav-links">
+                <a href="index.html">Inicio</a>
+                <a href="tutoriales.html">Tutoriales</a>
+                <a href="patrones.html">Patrones</a>
+                <a href="materiales.html">Materiales y productos</a>
+                <a class="active" href="comunidad.html">Comunidad</a>
+            </nav>
+
+            <div class="nav-actions">
+                <a class="icon-link" href="index.html" aria-label="Buscar">⌕</a>
+                <a class="icon-link" href="comunidad.html" aria-label="Favoritos">♡</a>
+                <a class="login-btn" href="comunidad.html">♙ Iniciar sesión</a>
+            </div>
+
+        </div>
+    </header>
+
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+
+        <!-- PRESENTACIÓN DE LA COMUNIDAD -->
+        <section class="page-hero">
+
+            <div class="container page-hero-inner">
+
+                <div>
+                    <h1>Nuestra comunidad</h1>
+
+                    <p>
+                        Comparte tus creaciones, aprende con otras personas
+                        y encuentra inspiración.
+                    </p>
+                </div>
+
+                <div class="big-icon">♡</div>
+
+            </div>
+
+        </section>
+
+
+        <!-- DISTRIBUCIÓN DE LA COMUNIDAD -->
+        <div class="container">
+
+            <div class="community-layout">
+
+                <!-- MENÚ LATERAL IZQUIERDO -->
+                <aside class="sidebar">
+
+                    <h3>Explora</h3>
+
+                    <a href="#">⌂ Todos</a>
+                    <a href="#">♡ Mis publicaciones</a>
+                    <a href="#">☆ Favoritos</a>
+                    <a href="#">✉ Mensajes</a>
+                    <a href="#">＋ Retos</a>
+
+                </aside>
+
+
+                <!-- PUBLICACIONES DE LA COMUNIDAD -->
+                <section>
+
+                    <!-- CATEGORÍAS -->
+                    <div class="chip-row">
+
+                        <span class="chip active">Recientes</span>
+                        <span class="chip">Proyectos</span>
+                        <span class="chip">Preguntas</span>
+                        <span class="chip">Retos</span>
+
+                    </div>
+
+
+                    <!-- PRIMERA PUBLICACIÓN -->
+                    <article class="post">
+
+                        <div class="post-user">
+
+                            <span class="avatar">🧶</span>
+
+                            <div>
+                                CrochetLover
+
+                                <div class="meta">
+                                    Hace 2 horas
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <p>
+                            ¡Accesorios de fresita! Estoy muy feliz con el resultado. ♡
+                        </p>
+
+                        <div class="post-photo">
+
+                            <img
+                                src="ImagenesCrochet/COLLARESS.png"
+                                alt="Amigurumi terminado"
+                                style="height:80%; width:80%; object-fit:cover; border-radius:15px"
+                            >
+
+                        </div>
+
+                        <div class="post-actions">
+
+                            <span>♡ 124 Me gusta</span>
+                            <span>◯ 32 Comentarios</span>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- SEGUNDA PUBLICACIÓN -->
+                    <article class="post">
+
+                        <div class="post-user">
+
+                            <span class="avatar">🌻</span>
+
+                            <div>
+                                TejidoConAmor
+
+                                <div class="meta">
+                                    Ayer
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <p>
+                            Les comparto mi primer proyecto, un peluche de abejita. 🌻
+                        </p>
+
+                        <div class="post-photo">
+
+                            <img
+                                src="ImagenesCrochet/ABEJITA.png"
+                                alt="abeja"
+                                style="height:80%; width:80%; object-fit:cover; border-radius:15px"
+                            >
+
+                        </div>
+
+                        <div class="post-actions">
+
+                            <span>♡ 86 Me gusta</span>
+                            <span>◯ 14 Comentarios</span>
+
+                        </div>
+
+                    </article>
+
+                </section>
+
+
+                <!-- MENÚ LATERAL DERECHO -->
+                <aside class="sidebar">
+
+                    <h3>👑 Miembros destacados</h3>
+
+                    <p>🧶 AmigurumiGirl</p>
+                    <p>🌷 TejedoraMiau</p>
+                    <p>🐰 CrochetDreams</p>
+
+                    <a class="btn small" href="#">
+                        Ver comunidad
+                    </a>
+
+                </aside>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="site-footer">
+
+        <div class="footer-inner">
+
+            <a class="brand" href="index.html">
+                <img src="ImagenesCrochet/logoo.jpg" alt="">
+                MAGIGURUMI
+            </a>
+
+            <nav class="footer-links">
+
+                <a href="index.html">Inicio</a>
+                <a href="tutoriales.html">Tutoriales</a>
+                <a href="patrones.html">Patrones</a>
+                <a href="materiales.html">Materiales</a>
+                <a href="comunidad.html">Comunidad</a>
+
+            </nav>
+
+            <p class="footer-note">
+                La creatividad no tiene límites. ♡
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>

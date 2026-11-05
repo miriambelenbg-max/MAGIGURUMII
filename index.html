@@ -1,0 +1,401 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MAGIGURUMI | Inicio</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- ENCABEZADO Y MENÚ DE NAVEGACIÓN -->
+    <header class="site-header">
+
+        <div class="nav-wrap">
+
+            <a class="brand" href="index.html">
+                <img src="ImagenesCrochet/logoo.jpg" alt="Logo MAGIGURUMI">
+                MAGIGURUMI
+            </a>
+
+            <button
+                class="menu-toggle"
+                aria-label="Abrir menú"
+                onclick="document.querySelector('.nav-links').classList.toggle('open')">
+                ☰
+            </button>
+
+            <nav class="nav-links">
+                <a class="active" href="index.html">Inicio</a>
+                <a href="tutoriales.html">Tutoriales</a>
+                <a href="patrones.html">Patrones</a>
+                <a href="materiales.html">Materiales y productos</a>
+                <a href="comunidad.html">Comunidad</a>
+            </nav>
+
+            <div class="nav-actions">
+
+                <a class="icon-link" href="tutoriales.html">⌕</a>
+                <a class="icon-link" href="comunidad.html">♡</a>
+                <a class="login-btn" href="comunidad.html">♙ Iniciar sesión</a>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+
+        <!-- SECCIÓN PRINCIPAL (HERO) -->
+        <section class="hero">
+
+            <div class="hero-inner">
+
+                <div class="hero-copy">
+
+                    <h1>
+                        Crea cosas increíbles con tus propias manos ♡
+                    </h1>
+
+                    <p>
+                        Tutoriales, patrones y recursos para aprender
+                        crochet y amigurumi desde cero.
+                    </p>
+
+                    <a class="btn" href="tutoriales.html">
+                        Explorar ahora →
+                    </a>
+
+                </div>
+
+
+                <!-- IMÁGENES DECORATIVAS -->
+                <div class="hero-art">
+
+                    <span class="heart one">♡</span>
+
+                    <span class="yarn-ball left">🧶</span>
+
+                    <img
+                        class="bunny"
+                        src="ImagenesCrochet/sueter.png"
+                        alt="Conejito tejido"
+                    >
+
+                    <span class="yarn-ball right">🧶</span>
+
+                    <span class="heart two">♡</span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- RESTO DEL CONTENIDO -->
+        <div class="container">
+
+
+            <!-- BARRA DE BÚSQUEDA -->
+            <form class="search-bar" action="tutoriales.html">
+
+                <input
+                    type="search"
+                    placeholder="Buscar tutoriales, patrones, proyectos..."
+                >
+
+                <button class="btn small">
+                    Buscar
+                </button>
+
+            </form>
+
+
+            <!-- BIENVENIDA -->
+            <h2 class="section-title">
+                ¡Bienvenida a MAGIGURUMI! ♡
+            </h2>
+
+            <p class="section-subtitle">
+                Aprende, crea y comparte tu pasión por el crochet.
+            </p>
+
+
+            <!-- APARTADOS PRINCIPALES -->
+            <section class="feature-grid">
+
+
+                <!-- TUTORIALes -->
+                <a class="feature-card" href="tutoriales.html">
+
+                    <div class="feature-emoji">🧸</div>
+
+                    <div>
+
+                        <h3>Tutoriales paso a paso</h3>
+
+                        <p>
+                            Aprende desde lo básico hasta proyectos avanzados.
+                        </p>
+
+                        <span class="btn small">
+                            Ver tutoriales →
+                        </span>
+
+                    </div>
+
+                </a>
+
+
+                <!-- PATRONES -->
+                <a class="feature-card" href="patrones.html">
+
+                    <div class="feature-emoji">🌻</div>
+
+                    <div>
+
+                        <h3>Patrones descargables</h3>
+
+                        <p>
+                            Encuentra patrones para tus proyectos favoritos.
+                        </p>
+
+                        <span class="btn small">
+                            Ver patrones →
+                        </span>
+
+                    </div>
+
+                </a>
+
+
+                <!-- MATERIALES Y PRODUCTOS -->
+                <a class="feature-card" href="materiales.html">
+
+                    <div class="feature-emoji">🧶</div>
+
+                    <div>
+
+                        <h3>Materiales y productos</h3>
+
+                        <p>
+                            Todo lo que necesitas para crear.
+                        </p>
+
+                        <span class="btn small">
+                            Ir a la tienda →
+                        </span>
+
+                    </div>
+
+                </a>
+
+
+                <!-- COMUNIDAD -->
+                <a class="feature-card" href="comunidad.html">
+
+                    <div class="feature-emoji">🐱</div>
+
+                    <div>
+
+                        <h3>Nuestra comunidad</h3>
+
+                        <p>
+                            Comparte tus proyectos y encuentra inspiración.
+                        </p>
+
+                        <span class="btn small">
+                            Unirme →
+                        </span>
+
+                    </div>
+
+                </a>
+
+            </section>
+
+
+            <!-- PRODUCTOS FAVORITOS -->
+            <h2 class="section-title">
+                Descubre nuestros productos favoritos
+            </h2>
+
+
+            <section class="products-layout">
+
+                <div class="product-grid">
+
+
+                    <!-- PRODUCTO 1 -->
+                    <article class="product-card">
+
+                        <div class="product-art">
+
+                            <img
+                                src="ImagenesCrochet/HILOS.png"
+                                alt="Estambre"
+                            >
+
+                        </div>
+
+                        <h3>Hilo de algodón</h3>
+
+                        <p class="price">
+                            $85 MXN
+                        </p>
+
+                        <a class="btn small" href="materiales.html">
+                            ♡ Ver producto
+                        </a>
+
+                    </article>
+
+
+                    <!-- PRODUCTO 2 -->
+                    <article class="product-card">
+
+                        <div class="product-art">
+
+                            <img
+                                src="ImagenesCrochet/GANCHOSS.png"
+                                alt="Ganchillos"
+                            >
+
+                        </div>
+
+                        <h3>Set de ganchillos</h3>
+
+                        <p class="price">
+                            $220 MXN
+                        </p>
+
+                        <a class="btn small" href="materiales.html">
+                            ♡ Ver producto
+                        </a>
+
+                    </article>
+
+
+                    <!-- PRODUCTO 3 -->
+                    <article class="product-card">
+
+                        <div class="product-art">
+                            <img
+                                src="ImagenesCrochet/ALGODON.png"
+                                alt="Relleno"
+                            >
+                        </div>
+
+                        <h3>Relleno premium</h3>
+
+                        <p class="price">
+                            $75 MXN
+                        </p>
+
+                        <a class="btn small" href="materiales.html">
+                            ♡ Ver producto
+                        </a>
+
+                    </article>
+
+
+                    <!-- PRODUCTO 4 -->
+                    <article class="product-card">
+
+                        <div class="product-art">
+
+                            <img
+                                src="ImagenesCrochet/KIT.png"
+                                alt="Gatito tejido"
+                            >
+
+                        </div>
+
+                        <h3>Kit gatito amigurumi</h3>
+
+                        <p class="price">
+                            $280 MXN
+                        </p>
+
+                        <a class="btn small" href="materiales.html">
+                            ♡ Ver producto
+                        </a>
+
+                    </article>
+
+                </div>
+
+
+                <!-- INVITACIÓN A LA COMUNIDAD -->
+                <aside class="community-banner">
+
+                    <div>
+
+                        <h2>¡Únete a nuestra comunidad! ♡</h2>
+
+                        <p>
+                            Aprende, comparte y crece con nosotros.
+                        </p>
+
+                        <a class="btn" href="comunidad.html">
+                            Crear cuenta →
+                        </a>
+
+                    </div>
+
+                    <span class="mascot">🐈‍⬛</span>
+
+                </aside>
+
+            </section>
+
+        </div>
+
+    </main>
+
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="site-footer">
+
+        <div class="footer-inner">
+
+            <a class="brand" href="index.html">
+
+                <img src="ImagenesCrochet/logoo.jpg" alt="">
+
+                MAGIGURUMI
+
+            </a>
+
+
+            <!-- ENLACES DEL PIE DE PÁGINA -->
+            <nav class="footer-links">
+
+                <a href="index.html">Inicio</a>
+                <a href="tutoriales.html">Tutoriales</a>
+                <a href="patrones.html">Patrones</a>
+                <a href="materiales.html">Materiales</a>
+                <a href="comunidad.html">Comunidad</a>
+
+            </nav>
+
+
+            <p class="footer-note">
+                La creatividad no tiene límites. ♡
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
